@@ -42,8 +42,6 @@
     <div class="body pos-relative">
         <div class="pos-absolute pos-all-0 filter ink" v-scope>
             <div class="content heti heti--vertical" v-if="!vueIsLoaded">
-                <p>「壮盛智愚，殊不再来。爱时进趣，将以惠谁？</p>
-                <p> 泛泛放逸，亦同何为！歌以言志，戚戚欲何念！」</p>
             </div>
             <div class="content heti heti--vertical hide" v-bind:style="{display: vueIsLoaded ? 'block' : 'none'}">
                 <p v-for="ink in inks" class="" v-bind:style="{fontSize: ink.size}">
